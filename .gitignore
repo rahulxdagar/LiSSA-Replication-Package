@@ -1,0 +1,7 @@
+**/target/
+**/.gradle/
+*.class
+*.jar
+.env
+.env.*
+!.env.example
