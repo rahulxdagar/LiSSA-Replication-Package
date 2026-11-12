@@ -31,7 +31,7 @@ Only the code that talks to the LLM changed. Everything else — artifact loadin
 
 | File | Change |
 |---|---|
-| `LiSSA-RATLR-V2/lissa/src/.../classifier/ChatLanguageModelProvider.java` | Ollama chat requests now send `num_ctx` (config argument, default 16384). Without it, Ollama uses its server default (4k on a 24 GB Mac) and silently cuts longer prompts. The OpenAI branch is unchanged. |
+| `LiSSA-RATLR-V2/lissa/src/.../classifier/ChatLanguageModelProvider.java` | Ollama chat requests now send `num_ctx` (config argument, default 16384). Without it, Ollama uses its server default (4k on a 24 GB Mac) and silently cuts longer prompts. They also send `num_predict` (config argument, default 4096, the maximum answer length of gpt-4o-2024-05-13). Without it, answers are unlimited, and a model caught in a repetition loop never finishes: llama3.1:8b did this in the smoke test. The OpenAI branch is unchanged. |
 | `LiSSA-RATLR-V2/lissa/src/.../embeddingcreator/OllamaEmbeddingCreator.java` | Embeddings now come from Ollama's `/api/embed` endpoint, with `truncate: true`, `num_ctx` and `num_batch = num_ctx` (config argument, default 8192). The old langchain4j 0.33 client used the legacy `/api/embeddings`, which fails for any input longer than the batch size (2048 tokens), i.e. for most code files, and LiSSA's length-fix fallback only knows OpenAI tokenizers. Long inputs are now cut to their first 8192 tokens, as the original code does for OpenAI. |
 | `LiSSA-RATLR-V2/lissa/local/` (new) | `models.conf`, `generate_configs_local.py`, `preflight.py`, `summarize.py` |
 | `LiSSA-RATLR-V2/lissa/configs-local/` (new, generated) | Local configs. Each is the original GPT-4o config with only the classifier, the embedding creator and `cache_dir` replaced. |

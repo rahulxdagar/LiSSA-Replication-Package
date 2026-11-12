@@ -17,11 +17,14 @@ public class ChatLanguageModelProvider {
 
     public static final int DEFAULT_SEED = 133742243;
     public static final int DEFAULT_OLLAMA_NUM_CTX = 16384;
+    // The maximum answer length of gpt-4o-2024-05-13, which produced the original results
+    public static final int DEFAULT_OLLAMA_NUM_PREDICT = 4096;
 
     private final String platform;
     private String model;
     private int seed;
     private int numCtx;
+    private int numPredict;
 
     public ChatLanguageModelProvider(Configuration.ModuleConfiguration configuration) {
         String[] modeXplatform = configuration.name().split(Classifier.CONFIG_NAME_SEPARATOR, 2);
@@ -36,7 +39,7 @@ public class ChatLanguageModelProvider {
     public ChatLanguageModel createChatModel() {
         return switch (platform) {
             case OPENAI -> createOpenAiChatModel(model, seed);
-            case OLLAMA -> createOllamaChatModel(model, seed, numCtx);
+            case OLLAMA -> createOllamaChatModel(model, seed, numCtx, numPredict);
             default -> throw new IllegalArgumentException("Unsupported platform: " + platform);
         };
     }
@@ -51,6 +54,8 @@ public class ChatLanguageModelProvider {
         // Without num_ctx, Ollama uses its server default (4k on most laptops) and silently truncates longer prompts
         if (OLLAMA.equals(platform)) {
             this.numCtx = configuration.argumentAsInt("num_ctx", DEFAULT_OLLAMA_NUM_CTX);
+            // Ollama's default answer length is unlimited, so a model caught in a repetition loop never finishes
+            this.numPredict = configuration.argumentAsInt("num_predict", DEFAULT_OLLAMA_NUM_PREDICT);
         }
     }
 
@@ -66,7 +71,7 @@ public class ChatLanguageModelProvider {
         return platform.equals(OPENAI);
     }
 
-    private static OllamaChatModel createOllamaChatModel(String model, int seed, int numCtx) {
+    private static OllamaChatModel createOllamaChatModel(String model, int seed, int numCtx, int numPredict) {
         String host = Environment.getenv("OLLAMA_HOST");
         String user = Environment.getenv("OLLAMA_USER");
         String password = Environment.getenv("OLLAMA_PASSWORD");
@@ -77,7 +82,8 @@ public class ChatLanguageModelProvider {
                 .timeout(Duration.ofMinutes(15))
                 .temperature(0.0)
                 .seed(seed)
-                .numCtx(numCtx);
+                .numCtx(numCtx)
+                .numPredict(numPredict);
         if (user != null && password != null && !user.isEmpty() && !password.isEmpty()) {
             ollama.customHeaders(Map.of("Authorization", Credentials.basic(user, password)));
         }
