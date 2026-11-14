@@ -1,0 +1,100 @@
+Example 1:
+Requirement: '''Use case name: ModifyNews 
+Description: Change data of a news on the computer. 
+Participating Actor: initialization Agency Operator 
+Entry Operator conditions: The agency has logged. 
+Flow of events User System: 
+1. Activate the editing functionality of a news. 
+2 View all news in a form. 
+3 Select a news from the list and submit the form. 
+4 Load the data of news and displays them in a form for editing. 
+5 Change data in the form and submit. 
+6. Check the modified information and asks for confirmation of the transaction. Where the data is invalid or insufficient, the system activates the use case Errored. 
+7 Confirm the operation of changing the data news. 
+8 Stores data modified news. 
+Exit conditions: The system shall notify the successful amendment of news. 
+The Operator Agency cancels the operation. 
+Interruption of the connection to the server ETOUR. 
+Quality requirements:
+'''
+Source code: '''	
+/**
+  * Interface that provides management services dell'advertisement
+  * Operator agency.
+  *
+*/
+package unisa.gps.etour.control.AdvertisementManager;
+
+import java.rmi.RemoteException;
+import java.util.ArrayList;
+
+import unisa.gps.etour.bean.BeanNews;
+
+public interface IAdvertisementAgencyManager extends IAdvertisementManager
+{
+/**
+* Method that inserts a new news system.
+*
+* @Param pNews Bean containing data news
+* @Throws RemoteException
+*/
+public boolean insertNews (BeanNews pNews) throws RemoteException;
+/**
+* Method which removes from the news system.
+*
+* @Param ID pNewsID news be erased.
+* @Throws RemoteException
+*/
+public boolean clearNews (int pNewsID) throws RemoteException;
+/**
+* Method amending the text of a news.
+*
+* @Param pNews Bean containing data news
+* @Throws RemoteException
+*/
+public boolean modifyNews (BeanNews pNews) throws RemoteException;
+/**
+* Returns the list of active news.
+*
+* @Return ArrayList of ArrayList News
+* @Throws RemoteException
+*/
+public ArrayList<BeanNews> getAllNews  () throws RemoteException;
+}'''
+Answer: <trace>yes</trace>
+Example 2:
+Requirement: '''The system shall display a default placeholder image for patients who do not have a photograph on file.
+'''
+Source code: '''package edu.ncsu.csc.itrust.risk.factors;
+
+/**
+ * Abstract class for risk factors, the hasRiskFactor delegates to the protected version. Caches the result in
+ * case it gets checked more than once.
+ * 
+ * @author Andy
+ * 
+ */
+abstract public class PatientRiskFactor {
+	private Boolean hasRisk = null;
+
+	/**
+	 * @return A textual description of what the patient's status is that's causing the risk.
+	 */
+	abstract public String getDescription();
+
+	/**
+	 * @return A boolean indicating whether the patient has the increased risk.
+	 */
+	abstract protected boolean hasFactor();
+
+	/**
+	 * @return A boolean indicating whether the patient has the increased risk.
+	 */
+	public boolean hasRiskFactor() {
+		if (hasRisk == null)
+			hasRisk = hasFactor();
+		return hasRisk;
+	}
+}
+'''
+Answer: <trace>no</trace>

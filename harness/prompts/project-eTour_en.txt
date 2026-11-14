@@ -1,0 +1,1 @@
+eTour is an electronic tourist guide. Agency operators manage cultural heritage objects, refreshment points, tourist accounts, news, banners and conventions with refreshment points; refreshment point operators manage their point's data and menu; tourists search for sites and refreshment points, manage their preferences, and give feedback and comments.

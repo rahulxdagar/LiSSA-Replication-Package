@@ -1,0 +1,1 @@
+iTrust is a web application for electronic health records. Patients, their personal representatives, health care professionals and other staff use it to manage medical records, office visits, prescriptions, lab procedures, referrals, appointments and reports; users are identified by a medical identification number (MID).

@@ -1,0 +1,4 @@
+The requirement and the source code file below are from the same software system. A traceability link between them was proposed: the code is said to implement part of what the requirement describes.
+Justify this link with at most 5 atomic claims. Each claim states one specific, checkable fact about what the source code does that connects it to the requirement, and cites exactly one identifier (a class, interface, method or field name) declared in this source code file. If you cannot justify the link, return an empty list of claims. Answer in JSON.
+ (1) requirement: '''{requirement}'''
+ (2) source code: '''{code}'''

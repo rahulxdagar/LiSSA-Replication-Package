@@ -1,0 +1,44 @@
+{
+ "SMOS": [
+  {
+   "project": "eTour_en",
+   "requirement": "UC23.txt",
+   "code": "IAdvertisementAgencyManager.java",
+   "linked": true
+  },
+  {
+   "project": "iTrust",
+   "requirement": "UC4E2.txt",
+   "code": "PatientRiskFactor.java",
+   "linked": false
+  }
+ ],
+ "eTour_en": [
+  {
+   "project": "SMOS",
+   "requirement": "SMOS23.txt",
+   "code": "Teaching.txt",
+   "linked": true
+  },
+  {
+   "project": "iTrust",
+   "requirement": "UC37S1.txt",
+   "code": "DrugInteractionBean.java",
+   "linked": false
+  }
+ ],
+ "iTrust": [
+  {
+   "project": "SMOS",
+   "requirement": "SMOS50.txt",
+   "code": "Role.txt",
+   "linked": true
+  },
+  {
+   "project": "eTour_en",
+   "requirement": "UC23.txt",
+   "code": "IDBRefreshmentPointOperator.java",
+   "linked": false
+  }
+ ]
+}

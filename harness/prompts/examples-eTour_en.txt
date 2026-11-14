@@ -1,0 +1,152 @@
+Example 1:
+Requirement: '''Nome:InserisciNuovoInsegnamento
+Attori: Amministratore
+Descrizione: Inserisce un nuovo insegnamento nell’archivio
+Precondizioni:
+•	L’utente è loggato al sistema come Amministratore • L’utente ha già eseguito il caso d’uso “VisualizzaElencoInsegnamenti” e il
+sistema sta visualizzando l’elenco degli insegnamenti •	L’utente clicca sul pulsante “Nuovo Insegnamento”
+Sequenza degli eventi
+Utente
+2.	Compila il form 3.	Clicca sul pulsante “Salva”
+Sistema
+1. Il sistema mostra il form da compilare	con:	nome insegnamento.
+4. Effettua dei controlli sulla validità dei dati immessi e inserisce il nuovo insegnamento nell’archivio; nel caso in cui i dati inseriti non sono validi, attiva il caso d’uso “ErroreDati”.
+Postcondizioni:
+• • • •
+L’utente ha inserito un insegnamento Viene notificato l’errore Connessione al server SMOS interrotta L’Amministratore interrompe l’operazione'''
+Source code: '''package smos.bean;
+
+import smos.exception.InvalidValueException;
+
+import java.io.Serializable;
+
+/**
+ * Classe utilizzata per modellare un insegnamento.
+ * 
+ * @author Giulio D'Amora
+ * @version 1.0
+ * 
+ *          2009 – Copyright by SMOS
+ * 
+ */
+
+public class Teaching implements Serializable {
+
+	private static final long serialVersionUID = 2523612738702790957L;
+	private int id_teaching;
+	private String name;
+
+	/**
+	 * Il costruttore della classe.
+	 */
+	public Teaching() {
+		this.id_teaching = 0;
+	}
+
+	/**
+	 * Ritorna il nome dell'insegnamento
+	 * 
+	 * @return Ritorna il nome dell'insegnamento.
+	 */
+	public String getName() {
+		return this.name;
+	}
+
+	/**
+	 * Setta il nome dell'insegnamento.
+	 * 
+	 * @param pName
+	 *            Il nome da settare.
+	 * 
+	 * @throws InvalidValueException
+	 */
+	public void setName(String pName) throws InvalidValueException {
+		if (pName.length() <= 4)// da verificare il test
+			throw new InvalidValueException();
+		else
+			this.name = pName;
+	}
+
+	/**
+	 * Ritorna l'id dell'insegnamento.
+	 * 
+	 * @return l'id dell'insegnamento.
+	 */
+	public int getId() {
+		return this.id_teaching;
+	}
+
+	/**
+	 * Setta l'id dell'insegnamento.
+	 * 
+	 * @param pId
+	 *            L'id da settare.
+	 */
+	public void setId(int pId) {
+		this.id_teaching = pId;
+	}
+
+}
+'''
+Answer: <trace>yes</trace>
+Example 2:
+Requirement: '''The drug desired to be prescribed is checked against the patient's drug allergies. The HCP is notified of drug allergy.
+'''
+Source code: '''package edu.ncsu.csc.itrust.beans;
+
+/**
+ * A bean for storing data about a message from one user to another.
+ * 
+ * A bean's purpose is to store data. Period. Little or no functionality is to be added to a bean 
+ * (with the exception of minor formatting such as concatenating phone numbers together). 
+ * A bean must only have Getters and Setters (Eclipse Hint: Use Source > Generate Getters and Setters… 
+ * to create these easily)
+ */
+public class DrugInteractionBean {
+	String firstDrug;
+	String secondDrug;
+	String description;
+	/**
+	 * @return the firstDrug
+	 */
+	public String getFirstDrug() {
+		return firstDrug;
+	}
+	/**
+	 * @param firstDrug the firstDrug to set
+	 */
+	public void setFirstDrug(String firstDrug) {
+		this.firstDrug = firstDrug;
+	}
+	/**
+	 * @return the secondDrug
+	 */
+	public String getSecondDrug() {
+		return secondDrug;
+	}
+	/**
+	 * @param secondDrug the secondDrug to set
+	 */
+	public void setSecondDrug(String secondDrug) {
+		this.secondDrug = secondDrug;
+	}
+	/**
+	 * @return the description
+	 */
+	public String getDescription() {
+		return description;
+	}
+	/**
+	 * @param description the description to set
+	 */
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
+	
+	
+	
+
+}
+'''
+Answer: <trace>no</trace>

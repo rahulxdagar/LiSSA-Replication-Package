@@ -1,0 +1,1 @@
+SMOS is a web application for monitoring high-school students. Administrators manage users, roles, classes, study tracks and teachings; teachers record absences, late entries, justifications, disciplinary notes and report cards in class registers; parents and students view this information. The requirements and many code identifiers are in Italian.
