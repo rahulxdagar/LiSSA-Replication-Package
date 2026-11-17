@@ -1,0 +1,199 @@
+2026-11-12 16:34:24:703 -0500 [main] INFO EvaluateCommand - Found 1 config files to invoke
+2026-11-12 16:34:24:704 -0500 [main] INFO EvaluateCommand - Invoking the pipeline with 'results-local/rq1/configs/eTour_en_artifact_artifact_no_llm_bge-m3.json'
+2026-11-12 16:34:24:765 -0500 [main] INFO Environment - No .env file found, using system environment variables
+2026-11-12 16:34:24:836 -0500 [main] INFO Evaluation - Loading artifacts
+2026-11-12 16:34:24:873 -0500 [main] INFO Evaluation - Preprocessing artifacts
+2026-11-12 16:34:24:874 -0500 [main] INFO Evaluation - Calculating embeddings
+2026-11-12 16:34:24:874 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC1.txt
+2026-11-12 16:34:24:938 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC10.txt
+2026-11-12 16:34:24:966 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC11.txt
+2026-11-12 16:34:24:988 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC12.txt
+2026-11-12 16:34:25:008 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC13.txt
+2026-11-12 16:34:25:029 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC14.txt
+2026-11-12 16:34:25:047 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC15.txt
+2026-11-12 16:34:25:070 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC16.txt
+2026-11-12 16:34:25:090 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC17.txt
+2026-11-12 16:34:25:116 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC18.txt
+2026-11-12 16:34:25:138 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC19.txt
+2026-11-12 16:34:25:159 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC2.txt
+2026-11-12 16:34:25:183 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC20.txt
+2026-11-12 16:34:25:208 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC21.txt
+2026-11-12 16:34:25:231 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC22.txt
+2026-11-12 16:34:25:253 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC23.txt
+2026-11-12 16:34:25:277 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC24.txt
+2026-11-12 16:34:25:297 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC25.txt
+2026-11-12 16:34:25:319 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC26.txt
+2026-11-12 16:34:25:343 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC27.txt
+2026-11-12 16:34:25:362 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC28.txt
+2026-11-12 16:34:25:382 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC29.txt
+2026-11-12 16:34:25:400 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC3.txt
+2026-11-12 16:34:25:423 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC30.txt
+2026-11-12 16:34:25:444 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC31.txt
+2026-11-12 16:34:25:462 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC32.txt
+2026-11-12 16:34:25:480 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC33.txt
+2026-11-12 16:34:25:501 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC34.txt
+2026-11-12 16:34:25:519 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC35.txt
+2026-11-12 16:34:25:541 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC36.txt
+2026-11-12 16:34:25:559 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC37.txt
+2026-11-12 16:34:25:578 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC38.txt
+2026-11-12 16:34:25:600 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC39.txt
+2026-11-12 16:34:25:623 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC4.txt
+2026-11-12 16:34:25:643 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC40.txt
+2026-11-12 16:34:25:664 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC41.txt
+2026-11-12 16:34:25:686 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC42.txt
+2026-11-12 16:34:25:706 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC43.txt
+2026-11-12 16:34:25:727 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC44.txt
+2026-11-12 16:34:25:749 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC45.txt
+2026-11-12 16:34:25:768 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC46.txt
+2026-11-12 16:34:25:791 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC47.txt
+2026-11-12 16:34:25:812 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC48.txt
+2026-11-12 16:34:25:833 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC49.txt
+2026-11-12 16:34:25:851 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC5.txt
+2026-11-12 16:34:25:869 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC50.txt
+2026-11-12 16:34:25:887 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC51.txt
+2026-11-12 16:34:25:905 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC52.txt
+2026-11-12 16:34:25:925 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC53.txt
+2026-11-12 16:34:25:947 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC54.txt
+2026-11-12 16:34:25:968 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC55.txt
+2026-11-12 16:34:26:000 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC56.txt
+2026-11-12 16:34:26:019 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC57.txt
+2026-11-12 16:34:26:039 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC58.txt
+2026-11-12 16:34:26:057 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC6.txt
+2026-11-12 16:34:26:079 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC7.txt
+2026-11-12 16:34:26:100 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC8.txt
+2026-11-12 16:34:26:123 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UC9.txt
+2026-11-12 16:34:26:142 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: AdvancedSearch.java
+2026-11-12 16:34:26:166 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: AdvertisementAgencyManager.java
+2026-11-12 16:34:26:267 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: AdvertisementManager.java
+2026-11-12 16:34:26:484 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: AdvertisementRefreshmentPointManager.java
+2026-11-12 16:34:26:506 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Authentication.java
+2026-11-12 16:34:26:551 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: AverageRatingRenderer.java
+2026-11-12 16:34:26:607 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Banner.java
+2026-11-12 16:34:27:875 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BannerDialog.java
+2026-11-12 16:34:27:996 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BannerNode.java
+2026-11-12 16:34:28:046 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BannerRenderer.java
+2026-11-12 16:34:28:077 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanBanner.java
+2026-11-12 16:34:28:112 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanConvention.java
+2026-11-12 16:34:28:176 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanCulturalHeritage.java
+2026-11-12 16:34:28:335 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanDish.java
+2026-11-12 16:34:28:383 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanGenericPreference.java
+2026-11-12 16:34:28:438 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanMenu.java
+2026-11-12 16:34:28:472 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanNews.java
+2026-11-12 16:34:28:524 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanOperatorAgency.java
+2026-11-12 16:34:28:576 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanOperatorRefreshmentPoint.java
+2026-11-12 16:34:28:648 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanRefreshmentPoint.java
+2026-11-12 16:34:28:820 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanSearchPreference.java
+2026-11-12 16:34:28:850 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanTag.java
+2026-11-12 16:34:28:884 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanTourist.java
+2026-11-12 16:34:29:043 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanVisitBC.java
+2026-11-12 16:34:29:107 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: BeanVisitPR.java
+2026-11-12 16:34:29:164 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: CardBC.java
+2026-11-12 16:34:30:613 -0500 [main] INFO OllamaEmbeddingCreator$OllamaEmbedEndpointModel - Input truncated to 8192 tokens by Ollama
+2026-11-12 16:34:30:614 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: CardPR.java
+2026-11-12 16:34:32:069 -0500 [main] INFO OllamaEmbeddingCreator$OllamaEmbedEndpointModel - Input truncated to 8192 tokens by Ollama
+2026-11-12 16:34:32:069 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Category.java
+2026-11-12 16:34:32:123 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ControlData.java
+2026-11-12 16:34:32:386 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ControlServerLauncher.java
+2026-11-12 16:34:32:424 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ControllDataAdvertisement.java
+2026-11-12 16:34:32:470 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: CulturalHeritage.java
+2026-11-12 16:34:33:916 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: CulturalHeritageAgencyManager.java
+2026-11-12 16:34:34:094 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: CulturalHeritageChecker.java
+2026-11-12 16:34:34:180 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: CulturalHeritageCommonManager.java
+2026-11-12 16:34:34:422 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: CulturalHeritageVisitChecker.java
+2026-11-12 16:34:34:458 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBAgencyOperator.java
+2026-11-12 16:34:34:529 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBBanner.java
+2026-11-12 16:34:34:577 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBConnectionPool.java
+2026-11-12 16:34:34:625 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBConvention.java
+2026-11-12 16:34:34:680 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBCulturalHeritage.java
+2026-11-12 16:34:34:743 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBDish.java
+2026-11-12 16:34:34:840 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBGenericPreference.java
+2026-11-12 16:34:34:958 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBLocationStatistic.java
+2026-11-12 16:34:35:041 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBMenu.java
+2026-11-12 16:34:35:161 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBNews.java
+2026-11-12 16:34:35:195 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBRefreshmentPoint.java
+2026-11-12 16:34:36:424 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBRefreshmentPointOperator.java
+2026-11-12 16:34:36:559 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBSearchPreference.java
+2026-11-12 16:34:36:957 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBTag.java
+2026-11-12 16:34:36:993 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBTourist.java
+2026-11-12 16:34:37:036 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBVisitBC.java
+2026-11-12 16:34:37:090 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBVisitPR.java
+2026-11-12 16:34:37:311 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DeskManager.java
+2026-11-12 16:34:37:879 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ErrorMessage.java
+2026-11-12 16:34:37:908 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: FeedBackTableModel.java
+2026-11-12 16:34:38:150 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Fuzzy.java
+2026-11-12 16:34:38:756 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: GlobalConstants.java
+2026-11-12 16:34:38:779 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: HelpManager.java
+2026-11-12 16:34:38:827 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IAdvertisementAgencyManager.java
+2026-11-12 16:34:38:856 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IAdvertisementManager.java
+2026-11-12 16:34:38:890 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IAdvertisementRefreshmentPointManager.java
+2026-11-12 16:34:38:906 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IAuthentication.java
+2026-11-12 16:34:38:927 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ICulturalHeritageAgencyManager.java
+2026-11-12 16:34:38:984 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ICulturalHeritageCommonManager.java
+2026-11-12 16:34:39:037 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBAgencyOperator.java
+2026-11-12 16:34:39:059 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBBanner.java
+2026-11-12 16:34:39:095 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBConvention.java
+2026-11-12 16:34:39:130 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBCulturalHeritage.java
+2026-11-12 16:34:39:266 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBDish.java
+2026-11-12 16:34:39:297 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBGenericPreference.java
+2026-11-12 16:34:39:326 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBMenu.java
+2026-11-12 16:34:39:360 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBNews.java
+2026-11-12 16:34:39:387 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBRefreshmentPoint.java
+2026-11-12 16:34:39:521 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBRefreshmentPointOperator.java
+2026-11-12 16:34:39:550 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBSearchPreference.java
+2026-11-12 16:34:39:625 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBTag.java
+2026-11-12 16:34:39:687 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBTourist.java
+2026-11-12 16:34:39:762 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBVisitBC.java
+2026-11-12 16:34:39:797 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IDBVisitPR.java
+2026-11-12 16:34:39:830 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IRefreshmentPointAgencyManager.java
+2026-11-12 16:34:39:904 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: IRefreshmentPointCommonManager.java
+2026-11-12 16:34:39:950 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ISearch.java
+2026-11-12 16:34:40:004 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ITagAgencyOperatorManager.java
+2026-11-12 16:34:40:033 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ITagCommonManager.java
+2026-11-12 16:34:40:056 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ITouristAgencyManager.java
+2026-11-12 16:34:40:108 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ITouristClientManager.java
+2026-11-12 16:34:40:265 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: LimitedDocument.java
+2026-11-12 16:34:40:297 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ListCategory.java
+2026-11-12 16:34:40:413 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: News.java
+2026-11-12 16:34:41:872 -0500 [main] INFO OllamaEmbeddingCreator$OllamaEmbedEndpointModel - Input truncated to 8192 tokens by Ollama
+2026-11-12 16:34:41:872 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: NewsTableModelTest.java
+2026-11-12 16:34:41:980 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: OperatorAgency.java
+2026-11-12 16:34:42:025 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: PRNode.java
+2026-11-12 16:34:42:070 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Point3D.java
+2026-11-12 16:34:42:137 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Point3DRenderer.java
+2026-11-12 16:34:42:192 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: PriorityRenderer.java
+2026-11-12 16:34:42:240 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: RefreshmentPoint.java
+2026-11-12 16:34:43:135 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: RefreshmentPointAgencyManager.java
+2026-11-12 16:34:43:755 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: RefreshmentPointCommonManager.java
+2026-11-12 16:34:44:063 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ReportStatistic.java
+2026-11-12 16:34:45:416 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ReportTableModel.java
+2026-11-12 16:34:45:481 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ScrollableTable.java
+2026-11-12 16:34:45:525 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Search.java
+2026-11-12 16:34:45:916 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SiteTableModel.java
+2026-11-12 16:34:45:962 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: StandardSearch.java
+2026-11-12 16:34:45:995 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Tag.java
+2026-11-12 16:34:46:465 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: TagAgencyOperatorManager.java
+2026-11-12 16:34:46:574 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: TagCommonManager.java
+2026-11-12 16:34:46:618 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: TagTableModel.java
+2026-11-12 16:34:46:670 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: TestoNewsRendererTest.java
+2026-11-12 16:34:46:735 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Tourist.java
+2026-11-12 16:34:48:184 -0500 [main] INFO OllamaEmbeddingCreator$OllamaEmbedEndpointModel - Input truncated to 8192 tokens by Ollama
+2026-11-12 16:34:48:184 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: TouristAgencyManager.java
+2026-11-12 16:34:48:456 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: TouristCard.java
+2026-11-12 16:34:49:262 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: TouristClientManager.java
+2026-11-12 16:34:49:996 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: TouristCommonManager.java
+2026-11-12 16:34:50:069 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: TouristTableModel.java
+2026-11-12 16:34:50:328 -0500 [main] INFO Evaluation - Building element stores
+2026-11-12 16:34:50:329 -0500 [main] INFO Evaluation - Classifying Tracelinks
+2026-11-12 16:34:50:353 -0500 [main] INFO MockClassifier - Waiting for classification to finish. Elements in queue: 58
+2026-11-12 16:34:50:357 -0500 [main] INFO Evaluation - Postprocessing Tracelinks
+2026-11-12 16:34:50:358 -0500 [main] INFO Evaluation - Evaluating Results
+2026-11-12 16:34:50:358 -0500 [main] INFO Statistics - Skipping header: false
+2026-11-12 16:34:50:367 -0500 [main] INFO ClassificationResult - True Positives: 205
+2026-11-12 16:34:50:367 -0500 [main] INFO ClassificationResult - False Positives: 955
+2026-11-12 16:34:50:367 -0500 [main] INFO ClassificationResult - False Negatives: 103
+2026-11-12 16:34:50:367 -0500 [main] INFO ClassificationResult - True Negatives: N/A
+2026-11-12 16:34:50:367 -0500 [main] INFO ClassificationResult - Precision: 0.17672413793103448
+2026-11-12 16:34:50:367 -0500 [main] INFO ClassificationResult - Recall: 0.6655844155844156
+2026-11-12 16:34:50:368 -0500 [main] INFO ClassificationResult - F1-Score: 0.27929155313351495
+2026-11-12 16:34:50:369 -0500 [main] INFO Statistics - Storing results to results-eTour_en_artifact_artifact_no_llm_bge-m3.json_12c3e232-dd5d-3a9c-b7e8-3fa86c614dee.md
+2026-11-12 16:34:50:373 -0500 [main] INFO Statistics - Storing trace links to traceLinks-eTour_en_artifact_artifact_no_llm_bge-m3.json_12c3e232-dd5d-3a9c-b7e8-3fa86c614dee.csv

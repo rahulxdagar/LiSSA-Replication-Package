@@ -1,0 +1,189 @@
+2026-11-12 16:34:07:989 -0500 [main] INFO EvaluateCommand - Found 1 config files to invoke
+2026-11-12 16:34:07:991 -0500 [main] INFO EvaluateCommand - Invoking the pipeline with 'results-local/rq1/configs/SMOS_artifact_artifact_no_llm_bge-m3.json'
+2026-11-12 16:34:08:056 -0500 [main] INFO Environment - No .env file found, using system environment variables
+2026-11-12 16:34:08:160 -0500 [main] INFO Evaluation - Loading artifacts
+2026-11-12 16:34:08:196 -0500 [main] INFO Evaluation - Preprocessing artifacts
+2026-11-12 16:34:08:197 -0500 [main] INFO Evaluation - Calculating embeddings
+2026-11-12 16:34:08:197 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS1.txt
+2026-11-12 16:34:08:805 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS10.txt
+2026-11-12 16:34:08:831 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS11.txt
+2026-11-12 16:34:08:856 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS12.txt
+2026-11-12 16:34:08:879 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS13.txt
+2026-11-12 16:34:08:900 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS14.txt
+2026-11-12 16:34:08:923 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS15.txt
+2026-11-12 16:34:08:945 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS16.txt
+2026-11-12 16:34:08:965 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS17.txt
+2026-11-12 16:34:08:982 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS18.txt
+2026-11-12 16:34:09:004 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS19.txt
+2026-11-12 16:34:09:024 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS2.txt
+2026-11-12 16:34:09:043 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS20.txt
+2026-11-12 16:34:09:065 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS21.txt
+2026-11-12 16:34:09:087 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS22.txt
+2026-11-12 16:34:09:106 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS23.txt
+2026-11-12 16:34:09:131 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS24.txt
+2026-11-12 16:34:09:151 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS25.txt
+2026-11-12 16:34:09:176 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS26.txt
+2026-11-12 16:34:09:196 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS27.txt
+2026-11-12 16:34:09:216 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS28.txt
+2026-11-12 16:34:09:238 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS29.txt
+2026-11-12 16:34:09:262 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS3.txt
+2026-11-12 16:34:09:279 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS30.txt
+2026-11-12 16:34:09:301 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS31.txt
+2026-11-12 16:34:09:324 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS32.txt
+2026-11-12 16:34:09:345 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS33.txt
+2026-11-12 16:34:09:370 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS34.txt
+2026-11-12 16:34:09:396 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS35.txt
+2026-11-12 16:34:09:417 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS36.txt
+2026-11-12 16:34:09:437 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS37.txt
+2026-11-12 16:34:09:460 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS38.txt
+2026-11-12 16:34:09:483 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS39.txt
+2026-11-12 16:34:09:509 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS4.txt
+2026-11-12 16:34:09:530 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS40.txt
+2026-11-12 16:34:09:552 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS41.txt
+2026-11-12 16:34:09:574 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS42.txt
+2026-11-12 16:34:09:596 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS43.txt
+2026-11-12 16:34:09:616 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS44.txt
+2026-11-12 16:34:09:641 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS45.txt
+2026-11-12 16:34:09:667 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS46.txt
+2026-11-12 16:34:09:694 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS47.txt
+2026-11-12 16:34:09:714 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS48.txt
+2026-11-12 16:34:09:733 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS49.txt
+2026-11-12 16:34:09:752 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS5.txt
+2026-11-12 16:34:09:769 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS50.txt
+2026-11-12 16:34:09:788 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS51.txt
+2026-11-12 16:34:09:808 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS52.txt
+2026-11-12 16:34:09:828 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS53.txt
+2026-11-12 16:34:09:845 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS54.txt
+2026-11-12 16:34:09:866 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS55.txt
+2026-11-12 16:34:09:895 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS56.txt
+2026-11-12 16:34:09:915 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS57.txt
+2026-11-12 16:34:09:935 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS58.txt
+2026-11-12 16:34:09:958 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS59.txt
+2026-11-12 16:34:09:986 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS6.txt
+2026-11-12 16:34:10:011 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS60.txt
+2026-11-12 16:34:10:037 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS61.txt
+2026-11-12 16:34:10:061 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS62.txt
+2026-11-12 16:34:10:082 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS63.txt
+2026-11-12 16:34:10:103 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS64.txt
+2026-11-12 16:34:10:123 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS65.txt
+2026-11-12 16:34:10:145 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS66.txt
+2026-11-12 16:34:10:167 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS67.txt
+2026-11-12 16:34:10:187 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS7.txt
+2026-11-12 16:34:10:208 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS8.txt
+2026-11-12 16:34:10:229 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: SMOS9.txt
+2026-11-12 16:34:10:252 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Absence.txt
+2026-11-12 16:34:10:309 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: AdaptorException.txt
+2026-11-12 16:34:10:339 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Address.txt
+2026-11-12 16:34:10:368 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Classroom.txt
+2026-11-12 16:34:10:417 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ConnectionException.txt
+2026-11-12 16:34:10:439 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ConnectionPoolDataSource.txt
+2026-11-12 16:34:10:868 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ConnectionWrapper.txt
+2026-11-12 16:34:11:283 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ControlConnection.txt
+2026-11-12 16:34:11:332 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DBConnection.txt
+2026-11-12 16:34:11:454 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DefaultException.txt
+2026-11-12 16:34:11:474 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Delay.txt
+2026-11-12 16:34:11:529 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DeleteAdministratorException.txt
+2026-11-12 16:34:11:550 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DeleteManagerException.txt
+2026-11-12 16:34:11:572 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: DuplicatedEntityException.txt
+2026-11-12 16:34:11:593 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: EntityNotFoundException.txt
+2026-11-12 16:34:11:613 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Environment.txt
+2026-11-12 16:34:11:634 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Justify.txt
+2026-11-12 16:34:11:679 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: LoginException.txt
+2026-11-12 16:34:11:699 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: MailUtility.txt
+2026-11-12 16:34:11:726 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ManagerAddress.txt
+2026-11-12 16:34:12:232 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ManagerClassroom.txt
+2026-11-12 16:34:12:954 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ManagerRegister.txt
+2026-11-12 16:34:14:411 -0500 [main] INFO OllamaEmbeddingCreator$OllamaEmbedEndpointModel - Input truncated to 8192 tokens by Ollama
+2026-11-12 16:34:14:412 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ManagerTeaching.txt
+2026-11-12 16:34:15:374 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ManagerVotes.txt
+2026-11-12 16:34:16:093 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: MandatoryFieldException.txt
+2026-11-12 16:34:16:116 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: NotImplementedYetException.txt
+2026-11-12 16:34:16:136 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Note.txt
+2026-11-12 16:34:16:199 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: PermissionException.txt
+2026-11-12 16:34:16:220 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: RegisterLine.txt
+2026-11-12 16:34:16:255 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Report.txt
+2026-11-12 16:34:16:300 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Role.txt
+2026-11-12 16:34:16:321 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletAddRemoveTeachingsAsAddress.txt
+2026-11-12 16:34:16:444 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletAddTeachingAsTeacher.txt
+2026-11-12 16:34:16:560 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletAddressTeachings.txt
+2026-11-12 16:34:16:649 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletAlterPersonalDate.txt
+2026-11-12 16:34:16:770 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletAssignParentStudent.txt
+2026-11-12 16:34:16:914 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletAssignRole.txt
+2026-11-12 16:34:17:074 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletAssignStudentClassroom.txt
+2026-11-12 16:34:17:183 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletComputateStatistics.txt
+2026-11-12 16:34:17:322 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletDeleteAddress.txt
+2026-11-12 16:34:17:417 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletDeleteClassroom.txt
+2026-11-12 16:34:17:524 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletDeleteJustify.txt
+2026-11-12 16:34:17:624 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletDeleteNote.txt
+2026-11-12 16:34:17:715 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletDeleteReport.txt
+2026-11-12 16:34:17:811 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletDeleteTeaching.txt
+2026-11-12 16:34:17:908 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletDeleteUser.txt
+2026-11-12 16:34:18:018 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletInitialize.txt
+2026-11-12 16:34:18:053 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletInsertAddress.txt
+2026-11-12 16:34:18:160 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletInsertClassroom.txt
+2026-11-12 16:34:18:282 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletInsertJustify.txt
+2026-11-12 16:34:18:403 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletInsertNewNote.txt
+2026-11-12 16:34:18:520 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletInsertReport.txt
+2026-11-12 16:34:18:669 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletInsertTeaching.txt
+2026-11-12 16:34:18:781 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletInsertUser.txt
+2026-11-12 16:34:18:916 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletLoadClassByAccademicYear.txt
+2026-11-12 16:34:19:024 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletLoadReport.txt
+2026-11-12 16:34:19:137 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletLoadTeachingList.txt
+2026-11-12 16:34:19:244 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletLoadYear.txt
+2026-11-12 16:34:19:339 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletLogin.txt
+2026-11-12 16:34:19:438 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletLogout.txt
+2026-11-12 16:34:19:468 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletProva.txt
+2026-11-12 16:34:19:485 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletRemoveStudentClassroom.txt
+2026-11-12 16:34:19:593 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletRemoveTeachingAsTeacher.txt
+2026-11-12 16:34:19:711 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletReportTeachings.txt
+2026-11-12 16:34:19:823 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowAddressDetails.txt
+2026-11-12 16:34:19:917 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowAddressList.txt
+2026-11-12 16:34:20:006 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowClassroomByAcademicYear.txt
+2026-11-12 16:34:20:100 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowClassroomDetails.txt
+2026-11-12 16:34:20:193 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowClassroomList.txt
+2026-11-12 16:34:20:286 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowClassroomManagement.txt
+2026-11-12 16:34:20:376 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowJustifyDetails.txt
+2026-11-12 16:34:20:473 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowJustifyList.txt
+2026-11-12 16:34:20:571 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowNoteDetails.txt
+2026-11-12 16:34:20:694 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowNoteList.txt
+2026-11-12 16:34:20:796 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowRegister.txt
+2026-11-12 16:34:20:913 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowReports.txt
+2026-11-12 16:34:21:023 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowStudentsByClass.txt
+2026-11-12 16:34:21:122 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowTeacherTeachingFormByClass.txt
+2026-11-12 16:34:21:230 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowTeachingDetails.txt
+2026-11-12 16:34:21:326 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowTeachingList.txt
+2026-11-12 16:34:21:420 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowUserClassroomForm.txt
+2026-11-12 16:34:21:437 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowUserDetails.txt
+2026-11-12 16:34:21:530 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowUserList.txt
+2026-11-12 16:34:21:618 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowUserRoleForm.txt
+2026-11-12 16:34:21:742 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowUserTeachingForm.txt
+2026-11-12 16:34:21:859 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletShowUserTeachingFormByCourse.txt
+2026-11-12 16:34:21:886 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletUpdateJustify.txt
+2026-11-12 16:34:21:983 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletUpdateRegister.txt
+2026-11-12 16:34:22:202 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletUpdateReport.txt
+2026-11-12 16:34:22:368 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletUpdateTeaching.txt
+2026-11-12 16:34:22:489 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: ServletUpdateUser.txt
+2026-11-12 16:34:22:609 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Teaching.txt
+2026-11-12 16:34:22:644 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: TestRegister.txt
+2026-11-12 16:34:22:767 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: User.txt
+2026-11-12 16:34:22:842 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UserListItem.txt
+2026-11-12 16:34:22:872 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: UserTest.txt
+2026-11-12 16:34:22:906 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Utility.txt
+2026-11-12 16:34:23:851 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: Votes.txt
+2026-11-12 16:34:23:950 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: display.txt
+2026-11-12 16:34:24:044 -0500 [main] INFO CachedEmbeddingCreator - Calculating embedding for: managerUser.txt
+2026-11-12 16:34:24:133 -0500 [main] INFO Evaluation - Building element stores
+2026-11-12 16:34:24:134 -0500 [main] INFO Evaluation - Classifying Tracelinks
+2026-11-12 16:34:24:162 -0500 [main] INFO MockClassifier - Waiting for classification to finish. Elements in queue: 67
+2026-11-12 16:34:24:166 -0500 [main] INFO Evaluation - Postprocessing Tracelinks
+2026-11-12 16:34:24:167 -0500 [main] INFO Evaluation - Evaluating Results
+2026-11-12 16:34:24:167 -0500 [main] INFO Statistics - Skipping header: false
+2026-11-12 16:34:24:177 -0500 [main] INFO ClassificationResult - True Positives: 467
+2026-11-12 16:34:24:177 -0500 [main] INFO ClassificationResult - False Positives: 873
+2026-11-12 16:34:24:177 -0500 [main] INFO ClassificationResult - False Negatives: 577
+2026-11-12 16:34:24:177 -0500 [main] INFO ClassificationResult - True Negatives: N/A
+2026-11-12 16:34:24:178 -0500 [main] INFO ClassificationResult - Precision: 0.3485074626865672
+2026-11-12 16:34:24:178 -0500 [main] INFO ClassificationResult - Recall: 0.44731800766283525
+2026-11-12 16:34:24:178 -0500 [main] INFO ClassificationResult - F1-Score: 0.3917785234899329
+2026-11-12 16:34:24:180 -0500 [main] INFO Statistics - Storing results to results-SMOS_artifact_artifact_no_llm_bge-m3.json_4d4e7ee2-acc2-3516-91b4-f36ea4a73414.md
+2026-11-12 16:34:24:183 -0500 [main] INFO Statistics - Storing trace links to traceLinks-SMOS_artifact_artifact_no_llm_bge-m3.json_4d4e7ee2-acc2-3516-91b4-f36ea4a73414.csv

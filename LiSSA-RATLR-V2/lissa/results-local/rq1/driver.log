@@ -1,0 +1,998 @@
+
+=== 2026-11-12 16:33:23 --seeds 1 --hours 3
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.23 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+>> [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json (attempt 1)
+>> [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json (attempt 1)
+>> [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json (attempt 1)
+
+Interrupted. Configs finished: 2 of 15. Candidate pairs answered: 0 of 20,480 (0%).
+No new answers in this batch, so there is no time estimate.
+
+=== 2026-11-12 17:32:27 --seeds 1 --hours 3
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+>> [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json (attempt 1)
+>> [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json (attempt 1)
+>> [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json (attempt 1)
+
+Interrupted. Configs finished: 4 of 15. Candidate pairs answered: 1,704 of 20,480 (8%).
+At this batch's pace, about 29.1 hours of running remain.
+
+=== 2026-11-12 20:57:33 --seeds 1 --hours 1
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.23 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+>> [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json (attempt 1)
+
+Interrupted. Configs finished: 4 of 15. Candidate pairs answered: 1,964 of 20,480 (10%).
+At this batch's pace, about 34.0 hours of running remain.
+
+=== 2026-11-14 15:56:37 --seeds 1 --hours 1
+Note: this Mac is on battery. caffeinate only prevents system sleep on AC; plug it in and keep the lid open.
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+>> [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json (attempt 1)
+
+Report: /Users/rahul/MyFiles/Study/Semester 1 - Fall 2026/CSI5187 Applications of NLP and ML in Software Engineering/Project/Project Repos/LiSSA-Local-Research/LiSSA-RATLR-V2/lissa/results-local/rq1/rq1-report.md
+Configs finished: 4 of 15. Candidate pairs answered: 2,491 of 20,480 (12%).
+The 1 h limit is reached and the answers so far are saved. It is safe to shut down.
+At this batch's pace, about 33.7 hours of running remain.
+Run the same command again to continue.
+
+=== 2026-11-14 17:17:08 --seeds 1 --hours 1
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+>> [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json (attempt 1)
+>> [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json (attempt 1)
+
+Report: /Users/rahul/MyFiles/Study/Semester 1 - Fall 2026/CSI5187 Applications of NLP and ML in Software Engineering/Project/Project Repos/LiSSA-Local-Research/LiSSA-RATLR-V2/lissa/results-local/rq1/rq1-report.md
+Configs finished: 5 of 15. Candidate pairs answered: 3,140 of 20,480 (15%).
+The 1 h limit is reached and the answers so far are saved. It is safe to shut down.
+At this batch's pace, about 26.4 hours of running remain.
+Run the same command again to continue.
+
+=== 2026-11-14 18:21:45 --seeds 1 --hours 1
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+>> [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json (attempt 1)
+
+Report: /Users/rahul/MyFiles/Study/Semester 1 - Fall 2026/CSI5187 Applications of NLP and ML in Software Engineering/Project/Project Repos/LiSSA-Local-Research/LiSSA-RATLR-V2/lissa/results-local/rq1/rq1-report.md
+Configs finished: 5 of 15. Candidate pairs answered: 3,733 of 20,480 (18%).
+The 1 h limit is reached and the answers so far are saved. It is safe to shut down.
+At this batch's pace, about 27.9 hours of running remain.
+Run the same command again to continue.
+
+=== 2026-11-14 19:30:35 --seeds 1 --hours 1
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.23 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+>> [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json (attempt 1)
+
+Report: /Users/rahul/MyFiles/Study/Semester 1 - Fall 2026/CSI5187 Applications of NLP and ML in Software Engineering/Project/Project Repos/LiSSA-Local-Research/LiSSA-RATLR-V2/lissa/results-local/rq1/rq1-report.md
+Configs finished: 5 of 15. Candidate pairs answered: 4,348 of 20,480 (21%).
+The 1 h limit is reached and the answers so far are saved. It is safe to shut down.
+At this batch's pace, about 25.9 hours of running remain.
+Run the same command again to continue.
+
+=== 2026-11-14 20:42:04 --seeds 1 --hours 1
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.23 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+>> [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json (attempt 1)
+
+Interrupted. Configs finished: 5 of 15. Candidate pairs answered: 4,757 of 20,480 (23%).
+At this batch's pace, about 22.2 hours of running remain.
+
+=== 2026-11-15 16:19:31 --seeds 1 --hours 2
+Note: this Mac is on battery. caffeinate only prevents system sleep on AC; plug it in and keep the lid open.
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+>> [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json (attempt 1)
+>> [7/15] SMOS_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json (attempt 1)
+>> [8/15] eTour_en_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json (attempt 1)
+
+Interrupted. Configs finished: 7 of 15. Candidate pairs answered: 7,015 of 20,480 (34%).
+At this batch's pace, about 11.5 hours of running remain.
+
+=== 2026-11-15 18:16:26 --seeds 1 --hours 3
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [7/15] SMOS_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+>> [8/15] eTour_en_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json (attempt 1)
+>> [9/15] iTrust_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json (attempt 1)
+>> [10/15] SMOS_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+
+Report: /Users/rahul/MyFiles/Study/Semester 1 - Fall 2026/CSI5187 Applications of NLP and ML in Software Engineering/Project/Project Repos/LiSSA-Local-Research/LiSSA-RATLR-V2/lissa/results-local/rq1/rq1-report.md
+Configs finished: 9 of 15. Candidate pairs answered: 10,679 of 20,480 (52%).
+The 3 h limit is reached and the answers so far are saved. It is safe to shut down.
+At this batch's pace, about 8.0 hours of running remain.
+Run the same command again to continue.
+
+=== 2026-11-16 00:48:56 --seeds 1 --hours 3
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.44 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [7/15] SMOS_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [8/15] eTour_en_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [9/15] iTrust_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+>> [10/15] SMOS_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+>> [11/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+
+Interrupted. Configs finished: 10 of 15. Candidate pairs answered: 12,223 of 20,480 (60%).
+At this batch's pace, about 14.2 hours of running remain.
+
+=== 2026-11-16 08:18:15 --seeds 1 --hours 1
+Note: this Mac is on battery. caffeinate only prevents system sleep on AC; plug it in and keep the lid open.
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [7/15] SMOS_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [8/15] eTour_en_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [9/15] iTrust_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [10/15] SMOS_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+>> [11/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+>> [12/15] iTrust_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+
+Report: /Users/rahul/MyFiles/Study/Semester 1 - Fall 2026/CSI5187 Applications of NLP and ML in Software Engineering/Project/Project Repos/LiSSA-Local-Research/LiSSA-RATLR-V2/lissa/results-local/rq1/rq1-report.md
+Configs finished: 11 of 15. Candidate pairs answered: 12,800 of 20,480 (62%).
+The 1 h limit is reached and the answers so far are saved. It is safe to shut down.
+At this batch's pace, about 13.2 hours of running remain.
+Run the same command again to continue.
+
+=== 2026-11-16 09:23:26 --seeds 1 --hours 1
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.23 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [7/15] SMOS_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [8/15] eTour_en_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [9/15] iTrust_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [10/15] SMOS_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+== [11/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+>> [12/15] iTrust_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+
+Report: /Users/rahul/MyFiles/Study/Semester 1 - Fall 2026/CSI5187 Applications of NLP and ML in Software Engineering/Project/Project Repos/LiSSA-Local-Research/LiSSA-RATLR-V2/lissa/results-local/rq1/rq1-report.md
+Configs finished: 11 of 15. Candidate pairs answered: 13,484 of 20,480 (66%).
+The 1 h limit is reached and the answers so far are saved. It is safe to shut down.
+At this batch's pace, about 10.1 hours of running remain.
+Run the same command again to continue.
+
+=== 2026-11-16 11:08:20 --seeds 1 --hours 1
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [7/15] SMOS_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [8/15] eTour_en_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [9/15] iTrust_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [10/15] SMOS_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+== [11/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+>> [12/15] iTrust_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+
+Interrupted. Configs finished: 11 of 15. Candidate pairs answered: 13,797 of 20,480 (67%).
+At this batch's pace, about 11.6 hours of running remain.
+
+=== 2026-11-16 15:43:49 --seeds 1 --hours 1
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [7/15] SMOS_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [8/15] eTour_en_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [9/15] iTrust_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [10/15] SMOS_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+== [11/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+>> [12/15] iTrust_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+
+Report: /Users/rahul/MyFiles/Study/Semester 1 - Fall 2026/CSI5187 Applications of NLP and ML in Software Engineering/Project/Project Repos/LiSSA-Local-Research/LiSSA-RATLR-V2/lissa/results-local/rq1/rq1-report.md
+Configs finished: 11 of 15. Candidate pairs answered: 14,434 of 20,480 (70%).
+The 1 h limit is reached and the answers so far are saved. It is safe to shut down.
+At this batch's pace, about 9.4 hours of running remain.
+Run the same command again to continue.
+
+=== 2026-11-16 17:09:53 --seeds 1 --hours 1
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.23 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [7/15] SMOS_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [8/15] eTour_en_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [9/15] iTrust_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [10/15] SMOS_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+== [11/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+>> [12/15] iTrust_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+
+Report: /Users/rahul/MyFiles/Study/Semester 1 - Fall 2026/CSI5187 Applications of NLP and ML in Software Engineering/Project/Project Repos/LiSSA-Local-Research/LiSSA-RATLR-V2/lissa/results-local/rq1/rq1-report.md
+Configs finished: 11 of 15. Candidate pairs answered: 15,049 of 20,480 (73%).
+The 1 h limit is reached and the answers so far are saved. It is safe to shut down.
+At this batch's pace, about 8.7 hours of running remain.
+Run the same command again to continue.
+
+=== 2026-11-16 18:32:38 --seeds 1 --hours 1
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [7/15] SMOS_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [8/15] eTour_en_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [9/15] iTrust_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [10/15] SMOS_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+== [11/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+>> [12/15] iTrust_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+
+Interrupted. Configs finished: 11 of 15. Candidate pairs answered: 15,053 of 20,480 (74%).
+At this batch's pace, about 8.2 hours of running remain.
+
+=== 2026-11-16 19:00:17 --seeds 1 --hours 0.5
+Note: this Mac is on battery. caffeinate only prevents system sleep on AC; plug it in and keep the lid open.
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [7/15] SMOS_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [8/15] eTour_en_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [9/15] iTrust_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [10/15] SMOS_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+== [11/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+>> [12/15] iTrust_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+>> [13/15] SMOS_artifact_artifact_simple_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+
+Report: /Users/rahul/MyFiles/Study/Semester 1 - Fall 2026/CSI5187 Applications of NLP and ML in Software Engineering/Project/Project Repos/LiSSA-Local-Research/LiSSA-RATLR-V2/lissa/results-local/rq1/rq1-report.md
+Configs finished: 12 of 15. Candidate pairs answered: 15,526 of 20,480 (76%).
+The 0.5 h limit is reached and the answers so far are saved. It is safe to shut down.
+At this batch's pace, about 5.1 hours of running remain.
+Run the same command again to continue.
+
+=== 2026-11-16 19:53:32 --seeds 1 --hours 0.25
+Note: this Mac is on battery. caffeinate only prevents system sleep on AC; plug it in and keep the lid open.
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [7/15] SMOS_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [8/15] eTour_en_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [9/15] iTrust_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [10/15] SMOS_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+== [11/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+== [12/15] iTrust_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+>> [13/15] SMOS_artifact_artifact_simple_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+
+Report: /Users/rahul/MyFiles/Study/Semester 1 - Fall 2026/CSI5187 Applications of NLP and ML in Software Engineering/Project/Project Repos/LiSSA-Local-Research/LiSSA-RATLR-V2/lissa/results-local/rq1/rq1-report.md
+Configs finished: 12 of 15. Candidate pairs answered: 16,154 of 20,480 (79%).
+The 0.25 h limit is reached and the answers so far are saved. It is safe to shut down.
+At this batch's pace, about 1.6 hours of running remain.
+Run the same command again to continue.
+
+=== 2026-11-16 23:05:13 --seeds 1 --hours 1
+>> Ollama is not reachable at http://127.0.0.1:11434: starting 'ollama serve'
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [7/15] SMOS_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [8/15] eTour_en_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [9/15] iTrust_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [10/15] SMOS_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+== [11/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+== [12/15] iTrust_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+>> [13/15] SMOS_artifact_artifact_simple_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+>> [14/15] eTour_en_artifact_artifact_simple_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+>> [15/15] iTrust_artifact_artifact_simple_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+
+Report: /Users/rahul/MyFiles/Study/Semester 1 - Fall 2026/CSI5187 Applications of NLP and ML in Software Engineering/Project/Project Repos/LiSSA-Local-Research/LiSSA-RATLR-V2/lissa/results-local/rq1/rq1-report.md
+Configs finished: 14 of 15. Candidate pairs answered: 18,646 of 20,480 (91%).
+The 1 h limit is reached and the answers so far are saved. It is safe to shut down.
+At this batch's pace, about 0.7 hours of running remain.
+Run the same command again to continue.
+
+=== 2026-11-17 00:18:08 --seeds 1 --hours 1
+>> Ollama is not reachable at http://127.0.0.1:11434: starting 'ollama serve'
+>> Preflight for qwen2.5-coder:14b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying qwen2.5-coder:14b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] qwen2.5-coder:14b: num_ctx 16384, 100% GPU, 11.11 GiB loaded
+>> Preflight for llama3.1:8b (loads the models with num_ctx 16384 and checks GPU placement)
+Ollama 0.40.14 at http://127.0.0.1:11434
+[embedding] trying bge-m3 ...
+[llm] trying llama3.1:8b ...
+
+[embedding] bge-m3: num_ctx 8192, 100% GPU, 0.97 GiB loaded
+[llm] llama3.1:8b: num_ctx 16384, 100% GPU, 6.56 GiB loaded
+Plan:
+    1. SMOS      bge-m3             retrieval only  
+    2. eTour_en  bge-m3             retrieval only  
+    3. iTrust    bge-m3             retrieval only  
+    4. SMOS      qwen2.5-coder:14b  CoT             seed 133742243
+    5. eTour_en  qwen2.5-coder:14b  CoT             seed 133742243
+    6. iTrust    qwen2.5-coder:14b  CoT             seed 133742243
+    7. SMOS      qwen2.5-coder:14b  KISS            seed 133742243
+    8. eTour_en  qwen2.5-coder:14b  KISS            seed 133742243
+    9. iTrust    qwen2.5-coder:14b  KISS            seed 133742243
+   10. SMOS      llama3.1:8b        CoT             seed 133742243
+   11. eTour_en  llama3.1:8b        CoT             seed 133742243
+   12. iTrust    llama3.1:8b        CoT             seed 133742243
+   13. SMOS      llama3.1:8b        KISS            seed 133742243
+   14. eTour_en  llama3.1:8b        KISS            seed 133742243
+   15. iTrust    llama3.1:8b        KISS            seed 133742243
+  15 configs, at most 20,480 LLM calls (20,480 in the first pass)
+== [1/15] SMOS_artifact_artifact_no_llm_bge-m3.json already done
+== [2/15] eTour_en_artifact_artifact_no_llm_bge-m3.json already done
+== [3/15] iTrust_artifact_artifact_no_llm_bge-m3.json already done
+== [4/15] SMOS_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [5/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [6/15] iTrust_133742243_artifact_artifact_reasoning_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [7/15] SMOS_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [8/15] eTour_en_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [9/15] iTrust_artifact_artifact_simple_ollama_qwen2.5-coder-14b_bge-m3.json already done
+== [10/15] SMOS_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+== [11/15] eTour_en_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+== [12/15] iTrust_133742243_artifact_artifact_reasoning_ollama_llama3.1-8b_bge-m3.json already done
+== [13/15] SMOS_artifact_artifact_simple_ollama_llama3.1-8b_bge-m3.json already done
+== [14/15] eTour_en_artifact_artifact_simple_ollama_llama3.1-8b_bge-m3.json already done
+>> [15/15] iTrust_artifact_artifact_simple_ollama_llama3.1-8b_bge-m3.json (attempt 1)
+
+Report: /Users/rahul/MyFiles/Study/Semester 1 - Fall 2026/CSI5187 Applications of NLP and ML in Software Engineering/Project/Project Repos/LiSSA-Local-Research/LiSSA-RATLR-V2/lissa/results-local/rq1/rq1-report.md
+Configs finished: 15 of 15. Candidate pairs answered: 20,480 of 20,480 (100%).

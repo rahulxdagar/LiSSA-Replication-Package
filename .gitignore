@@ -5,3 +5,11 @@
 .env
 .env.*
 !.env.example
+
+# Local run outputs not kept in git (raw log is committed as ollama-serve.log.gz; smoke runs are superseded by rq1)
+LiSSA-RATLR-V2/lissa/results-local/*/ollama-serve.log
+LiSSA-RATLR-V2/lissa/results-local/rq1-smoke/
+LiSSA-RATLR-V2/lissa/cache-local-smoke/
+
+# Python environment created by harness/RQ2_RQ3_INSTRUCTIONS.md
+.venv-harness/

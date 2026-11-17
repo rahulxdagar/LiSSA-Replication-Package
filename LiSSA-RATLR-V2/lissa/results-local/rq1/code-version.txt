@@ -1,0 +1,9 @@
+commit: 6bb72ee1f83f0fa9f64b6f6292da52fd06278b08
+jar sha256: 075cccf3195c8c914a2c85b6475bc8e44cf9479c2221145dd30fbbb8c8b41b2a
+java: openjdk version "21.0.13" 2026-10-20
+ollama: ollama version is 0.40.14
+
+git status:
+?? LiSSA-RATLR-V2/lissa/cache-local-r2c/
+?? LiSSA-RATLR-V2/lissa/cache-local-smoke/
+?? LiSSA-RATLR-V2/lissa/results-local/

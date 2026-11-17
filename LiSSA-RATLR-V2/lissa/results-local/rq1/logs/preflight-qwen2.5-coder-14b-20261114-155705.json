@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-11-14T15:57:05-05:00",
+  "ollama_url": "http://127.0.0.1:11434",
+  "ollama_version": "0.40.14",
+  "require_full_gpu": true,
+  "probe_files": {
+    "source": "datasets/req2code/iTrust/UC/UC30S7.txt",
+    "target": "datasets/req2code/eTour_en/CC/CardBC.java"
+  },
+  "embedding": {
+    "model": "bge-m3",
+    "digest": "7907646426070047a77226ac3e684fbbe8410524f7b4a74d02837e43f2146bab",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "bert",
+      "families": [
+        "bert"
+      ],
+      "parameter_size": "566.70M",
+      "quantization_level": "F16"
+    },
+    "capabilities": [
+      "embedding"
+    ],
+    "max_context": 8192,
+    "gpu_fraction": 1.0,
+    "loaded_size_gib": 0.97,
+    "loaded_context": 8192,
+    "num_ctx_requested": 16384,
+    "num_ctx": 8192,
+    "dimensions": 1024,
+    "probe": {
+      "tokens": 8192,
+      "truncated": true,
+      "seconds": 2.3
+    },
+    "fallback_used": false,
+    "rejected": []
+  },
+  "llm": {
+    "model": "qwen2.5-coder:14b",
+    "digest": "9ec8897f747e246e970bc5cfdda85d22f1123dc2e3d34978a010a75968716849",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen2",
+      "families": [
+        "qwen2"
+      ],
+      "parameter_size": "14.8B",
+      "quantization_level": "Q4_K_M"
+    },
+    "capabilities": [
+      "completion",
+      "tools",
+      "insert"
+    ],
+    "max_context": 32768,
+    "gpu_fraction": 1.0,
+    "loaded_size_gib": 11.11,
+    "loaded_context": 16384,
+    "num_ctx_requested": 16384,
+    "num_ctx": 16384,
+    "thinking_capable": false,
+    "probe": {
+      "longest_prompt_tokens": 10223,
+      "fits": true,
+      "seconds": 25.6
+    },
+    "fallback_used": false,
+    "rejected": []
+  }
+}
